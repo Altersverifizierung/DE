@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokale Singles treffen</title>
+    <style>
+        /* Animaciones */
+        @keyframes fadeInMove {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* Video de fondo en blanco y negro */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            overflow: hidden;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 500px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            text-align: center;
+            animation: fadeInMove 1s ease-out forwards;
+            margin: 20px;
+        }
+
+        h1 { font-size: 1.9em; margin-bottom: 20px; }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #ddd;
+            line-height: 1.6;
+            padding: 0 10px;
+        }
+
+        .btn-container { display: flex; justify-content: center; }
+
+        .btn {
+            background-color: #ff3e3e;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            animation: pulse 2s infinite ease-in-out;
+            transition: 0.3s;
+        }
+        .btn:hover { background-color: #d32f2f; animation: none; }
+
+        .footer-text {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #ff3e3e;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop playsinline class="video-background">
+        <source src="tnmHUWYV_720p.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <div class="container">
+        <h1>Lerne Singles in deiner Nähe kennen, die auf der Suche nach Sex sind.</h1>
+        <p>🔒 Wenn Sie 18 oder 20 Jahre alt sind, registrieren sich bitte als 22-Jähriger und aktivieren Ihr Konto über Ihre E-Mail-Adresse.</p>
+
+        <div class="btn-container">
+            <a href="https://clicknlook.site/a/Kr54Ni401WhAzBp" target="_blank"class="btn">Jetzt suchen </a>   
+
+        </div>
+
+        <p class="footer-text">⚠️ Wenn Sie Ihr Konto nicht aktivieren, können Sie keine Frauen in Ihrer Umgebung finden.</p>
+    </div>
+</body>
+</html>
